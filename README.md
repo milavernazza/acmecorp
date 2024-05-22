@@ -2,7 +2,7 @@
 
 ## Overview
 
-AcmeCorp API is a .NET Core web API designed to manage customers, their contact information, and their orders. This project demonstrates the use of SOLID and DDD principles, clean architecture patterns, asynchronous programming, and includes unit and integration tests. The API is containerized using Docker and can be deployed on AWS using infrastructure as code (IaC).
+AcmeCorp API is a .NET Core web API designed to manage customers, their contact information, and their orders. This project demonstrates the use of SOLID and DDD principles, clean architecture patterns, asynchronous programming, and includes unit and integration tests. The API is containerized using Docker and can be deployed on AWS using infrastructure as code (IaC). **All the secrets and keys are false and for simplicity are mocked in the code like a real but definetly should to be in AWS secrets manager or vault.**
 
 ## Project Structure
 
