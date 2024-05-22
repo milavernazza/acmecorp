@@ -1,0 +1,13 @@
+version: '3.4'
+
+services: 
+  acmecorp.api:
+    image: acmecorpapi
+    build:
+      context: .
+      dockerfile: src/AcmeCorp.Api/Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ApiKey=HjGw7ISLn_3namBGewQe
